@@ -1,111 +1,126 @@
 <%= favicon_link_tag 'favicon.ico' %>
+<header>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">     Emitt</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Log In</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
-<div class="container" id="test">
-	<div class="header" id="landing">
+<br>
+
+<div class="container" align="center" >
+	<div >
+		<img src="Emitt.png">
+	</div>
+	<div >
 		<h1>Welcome to Emitt</h1>
 		<p>Discover your next</p>
 		<p>Favorite Podcast Here!</p>
 	</div>
-	<div class="header" id="credentials">
-		<p>Sign Up</p>
-		<p>Log In</p>
-	</div>
+
+<br>
+<div class="divider"></div>
+<br>
+
+  <div class="row" >
+    <div class="input-field col s8 offset-s2">
+      <input value="Name" id="podcast" type="text" class="validate">
+      	<label class="active" for="podcast">Search for your favorite Podcast here!</label>
+    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="mdi-content-send right"> </i>
+  	</button>
+    </div>
+  </div>
 </div>
 
 <br>
 
-<div class="welcome">
-	<img src="Emitt.png">
-</div>
+<div class="container">
+    <div class="row">
+      <div class="col s6">
+          <div class="card panel red lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">Play!</span>
+					<ul>
+					  <li>Basic Playback </li>
+					  <li>Playlists</li>
+					  <li>Support for Audio and Video</li>
+					</ul>
+            </div>
+          </div>
+      </div>
 
- <br>
-	
-<div class="search">
-	<form>
-        <input type="text" placeholder="Search..." required>
-        <input type="button" value="Search">
-	</form>
+      <div class="col s6">
+          <div class="card panel red lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">Sync!</span>
+					<ul>
+					  <li>Same Subscriptions and Playlists*</li>
+					  <li>Any App</li>
+					  <li>Any Platform</li>
+					</ul>
+            </div>
+          </div>
+      </div>
+
+      <div class="col s6">
+          <div class="card panel red lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">Discover!</span>
+					<ul>
+					  <li>Search by Title</li>
+					  <li>By Category</li>
+					  <li>And by Popularity</li>
+					</ul>
+            </div>
+          </div>
+      </div>
+
+      <div class="col s6">
+          <div class="card panel red lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">Engage!</span>
+					<ul>
+					  <li>Review</li>
+					  <li>Rate</li>
+					  <li>Share</li>
+					</ul>
+            </div>
+          </div>
+      </div>
+    </div>
 </div>
 
 <br>
 
-
-
-
-
-			<div class="listcard">
-				<h2>Lisen!</h2>
-				<p>Cool thing 1</p>
-				<p>Cool thing 2</p>
-				<p>Cool thing 3</p>
-				<p>cool thing 4</p>
-			</div>
-			<div class="listcard">
-				<h2>Discover!</h2>
-				<p>Cool thing 1</p>
-				<p>Cool thing 2</p>
-				<p>Cool thing 3</p>
-				<p>cool thing 4</p>
-			</div>
-
-
-			<div class="listcard">
-				<h2>Sync!</h2>
-				<p>Cool thing 1</p>
-				<p>Cool thing 2</p>
-				<p>Cool thing 3</p>
-				<p>cool thing 4</p>
-			</div>
-
-			<div class="listcard">
-				<h2>Engage!</h2>
-				<p>Cool thing 1</p>
-				<p>Cool thing 2</p>
-				<p>Cool thing 3</p>
-				<p>cool thing 4</p>
-			</div>
-		
-<p>--------------------------</p>
-
-			<div class="listcard">
-				<h2>Emitt!</h2>
-				<p>Cool thing 1</p>
-				<p>Cool thing 2</p>
-				<p>Cool thing 3</p>
-				<p>cool thing 4</p>
-			</div>
-
-			<div class="listcard">
-				<h2>Engage!</h2>
-				<p>Cool thing 1</p>
-				<p>Cool thing 2</p>
-				<p>Cool thing 3</p>
-				<p>cool thing 4</p>
-			</div>
-
-			<div class="listcard">
-				<h2>Reach!</h2>
-				<p>Cool thing 1</p>
-				<p>Cool thing 2</p>
-				<p>Cool thing 3</p>
-				<p>cool thing 4</p>
-			</div>
-
-			<div class="listcard">
-				<h2>Analyze!</h2>
-				<p>Cool thing 1</p>
-				<p>Cool thing 2</p>
-				<p>Cool thing 3</p>
-				<p>cool thing 4</p>
-			</div>
-
-
-
-<br>
-<table class="footer">
-	<tr>Copyright 2015</tr>
-	<tr>API</tr>
-	<tr>FAQ</tr>
-	<tr>About</tr>
-	<tr>Blog</tr>
-</table>
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Emitt</h5>
+                <p class="grey-text text-lighten-4">Find your next favorite Podcast here!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Follow the Movement</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2015 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">Developers  </a>
+            <a class="grey-text text-lighten-4 right" href="#!">FAQ  </a>
+            <a class="grey-text text-lighten-4 right" href="#!">About  </a>
+            </div>
+          </div>
+        </footer>
