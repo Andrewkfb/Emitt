@@ -3,12 +3,50 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+//SASS Variables
+
+$material-red: #E57373; 
 
 
-.welcome {
+//SASS Mixins
 
+
+
+//Welcoming Navig Bar
+
+.emitt-navbar {
+	background-color: $material-red;
+	font-size: 175%;
+	margin-top: -1%;
+	padding: 1%;
+	padding-left: 2%;
+	height: 2%;
+	display: inline-block;
+	vertical-align: center;
+	color: white;
+}
+
+
+
+
+.nav-welcome {
+	float: left;
+	padding: 0%;
 
 }
+
+.nav-links, {
+	float: right;
+	padding-right: 1%;
+
+}
+
+
+ .nav-links, a:hover {
+	background-color: #EF9A9A;
+}
+
+//Hello
 
 .search {
 
@@ -16,7 +54,6 @@
 }
 
 .features {
-
 
 }
 

@@ -26,6 +26,21 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
  gem 'bcrypt', '~> 3.1.7'
 
+# Added SASS for easier developement
+gem 'sass'
+
+
+# Simple Form gem for..well...the forms
+gem 'simple_form'
+
+
+#Stand In Buttons
+gem "font-awesome-rails"
+
+
+#Devise for Authentication
+gem 'devise'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

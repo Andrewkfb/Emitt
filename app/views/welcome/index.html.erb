@@ -1,13 +1,17 @@
 <%= favicon_link_tag 'favicon.ico' %>
 <header>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">     Emitt</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#">Sign Up</a></li>
-        <li><a href="#">Log In</a></li>
-      </ul>
-    </div>
+  <nav class="emitt-navbar">
+      <div class="nav-welcome">
+          <i class="fa fa-home"></i>
+              <a href="welcome"> Emitt</a>
+      </div>
+      <div >
+               <a class="nav-links"href="signup">Sign Up</a>
+      </div>
+      <div >
+               <a class="nav-links"href="login">Log In</a>
+
+      </div>
   </nav>
 </header>
 
@@ -47,9 +51,11 @@
         <li class="tab col s3"><a class="active" href="#test1">Listeners</a></li>
         <li class="tab col s3"><a href="#test2">Emitters</a></li>
         <li class="tab col s3"><a href="#test3">Developers</a></li>
-        <li class="tab col s3"><a href="#test4">Sponsors</a></li>
+<!--         <li class="tab col s3"><a href="#test4">Sponsors</a></li> -->
       </ul>
     </div>
+
+    <!-- Listenrs -->
     <div id="test1" class="col s12">
                   <br>
                     <div class="container">
@@ -109,7 +115,7 @@
                     </div>
     </div>
 
-
+<!-- Emitters -->
     <div id="test2" class="col s12">
                     <br>
                     <div class="container">
@@ -117,37 +123,11 @@
                           <div class="col s6">
                               <div class="card panel blue lighten-1">
                                 <div class="card-content white-text">
-                                  <span class="card-title">Play!</span>
+                                  <span class="card-title">Emitt!</span>
                               <ul>
-                                <li>Basic Playback </li>
-                                <li>Playlists Support</li>
+                                <li>Episode Hosting </li>
+                                <li>Access on Any App, Any Platform</li>
                                 <li>Support for Audio and Video</li>
-                              </ul>
-                                </div>
-                              </div>
-                          </div>
-
-                          <div class="col s6">
-                              <div class="card panel blue lighten-1">
-                                <div class="card-content white-text">
-                                  <span class="card-title">Sync!</span>
-                              <ul>
-                                <li>Same Subscriptions</li>
-                                <li>Same Playlists*</li>
-                                <li>Any App, Any Platform</li>
-                              </ul>
-                                </div>
-                              </div>
-                          </div>
-
-                          <div class="col s6">
-                              <div class="card panel blue lighten-1">
-                                <div class="card-content white-text">
-                                  <span class="card-title">Discover!</span>
-                              <ul>
-                                <li>Search by Title</li>
-                                <li>By Category</li>
-                                <li>And by Popularity</li>
                               </ul>
                                 </div>
                               </div>
@@ -158,9 +138,35 @@
                                 <div class="card-content white-text">
                                   <span class="card-title">Engage!</span>
                               <ul>
-                                <li>Review</li>
-                                <li>Rate</li>
-                                <li>Share</li>
+                                <li>Respond to Reviews</li>
+                                <li>Advertise on Homepage</li>
+                                <li>Integrate with Social Media</li>
+                              </ul>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="col s6">
+                              <div class="card panel blue lighten-1">
+                                <div class="card-content white-text">
+                                  <span class="card-title">Capitalize!</span>
+                              <ul>
+                                <li>Meet Potential Sponsors</li>
+                                <li>Fit the Data to the Product</li>
+                                <li>And by Popularity</li>
+                              </ul>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="col s6">
+                              <div class="card panel blue lighten-1">
+                                <div class="card-content white-text">
+                                  <span class="card-title">Analyze!</span>
+                              <ul>
+                                <li>Lisner Demographics</li>
+                                <li>Lisning Stats</li>
+                                <li>Share Stats</li>
                               </ul>
                                 </div>
                               </div>
@@ -171,6 +177,7 @@
 
     </div>
 
+<!-- Developers-->
     <div id="test3" class="col s12">
                     <br>
                     <div class="container">
@@ -178,11 +185,10 @@
                           <div class="col s6">
                               <div class="card panel green lighten-1">
                                 <div class="card-content white-text">
-                                  <span class="card-title">Play!</span>
+                                  <span class="card-title">Integrate!</span>
                               <ul>
-                                <li>Basic Playback </li>
-                                <li>Playlists Support</li>
-                                <li>Support for Audio and Video</li>
+                                <li>Sync API</li>
+                                <li>Search API</li>
                               </ul>
                                 </div>
                               </div>
@@ -191,57 +197,36 @@
                           <div class="col s6">
                               <div class="card panel green lighten-1">
                                 <div class="card-content white-text">
-                                  <span class="card-title">Sync!</span>
+                                  <span class="card-title">Benefits!</span>
                               <ul>
-                                <li>Same Subscriptions</li>
-                                <li>Same Playlists*</li>
-                                <li>Any App, Any Platform</li>
+                                <li>You Make the App</li>
+                                <li>We Handle the Legwork</li>
                               </ul>
                                 </div>
                               </div>
                           </div>
 
-                          <div class="col s6">
-                              <div class="card panel green lighten-1">
-                                <div class="card-content white-text">
-                                  <span class="card-title">Discover!</span>
-                              <ul>
-                                <li>Search by Title</li>
-                                <li>By Category</li>
-                                <li>And by Popularity</li>
-                              </ul>
-                                </div>
-                              </div>
-                          </div>
+                          
 
-                          <div class="col s6">
-                              <div class="card panel green lighten-1">
-                                <div class="card-content white-text">
-                                  <span class="card-title">Engage!</span>
-                              <ul>
-                                <li>Review</li>
-                                <li>Rate</li>
-                                <li>Share</li>
-                              </ul>
-                                </div>
-                              </div>
-                          </div>
+                          
                         </div>
                     </div>
     </div>
 
-    <div id="test4" class="col s12">
+
+<!-- Sponsors -->
+<!--     <div id="test4" class="col s12">
                     <br>
                     <div class="container">
                         <div class="row">
                           <div class="col s6">
                               <div class="card panel deep-purple accent-1">
                                 <div class="card-content white-text">
-                                  <span class="card-title">Play!</span>
+                                  <span class="card-title">Sponsor!</span>
                               <ul>
-                                <li>Basic Playback </li>
-                                <li>Playlists Support</li>
-                                <li>Support for Audio and Video</li>
+                                <li>Find the Right Fit</li>
+                                <li>Create Campaigns</li>
+                                <li>Manage Relationships</li>
                               </ul>
                                 </div>
                               </div>
@@ -250,41 +235,19 @@
                           <div class="col s6">
                               <div class="card panel deep-purple accent-1">
                                 <div class="card-content white-text">
-                                  <span class="card-title">Sync!</span>
+                                  <span class="card-title">Reach!</span>
                               <ul>
-                                <li>Same Subscriptions</li>
-                                <li>Same Playlists*</li>
+                                <li>The Right Audience</li>
+                                <li>Easy Sponsor Integration</li>
                                 <li>Any App, Any Platform</li>
                               </ul>
                                 </div>
                               </div>
-                          </div>
+                          </div> -->
 
-                          <div class="col s6">
-                              <div class="card panel deep-purple accent-1">
-                                <div class="card-content white-text">
-                                  <span class="card-title">Discover!</span>
-                              <ul>
-                                <li>Search by Title</li>
-                                <li>By Category</li>
-                                <li>And by Popularity</li>
-                              </ul>
-                                </div>
-                              </div>
-                          </div>
+                          
 
-                          <div class="col s6">
-                              <div class="card panel deep-purple accent-1">
-                                <div class="card-content white-text">
-                                  <span class="card-title">Engage!</span>
-                              <ul>
-                                <li>Review</li>
-                                <li>Rate</li>
-                                <li>Share</li>
-                              </ul>
-                                </div>
-                              </div>
-                          </div>
+                         
                         </div>
                     </div>
     </div>
